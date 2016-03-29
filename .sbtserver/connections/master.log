@@ -1,0 +1,7 @@
+New log file opened at Tue Mar 29 18:42:44 UTC 2016 by 20184@jaroop-eluria
+Taking next connection to: 50724
+New client attempting to connect on port: 37886-50724
+  Address = /127.0.0.1:50724
+This client on port 37886 has uuid cf6f2d09-066d-45f4-bab5-7a5abddfe287 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-cf6f2d09-066d-45f4-bab5-7a5abddfe287
+Taking next connection to: 50724

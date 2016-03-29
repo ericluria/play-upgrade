@@ -1,0 +1,86 @@
+New log file opened at Tue Mar 29 18:42:44 UTC 2016 by 20184@jaroop-eluria
+jvm 20184@jaroop-eluria
+jvm vmName=OpenJDK 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.45-b02
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/home/eluria/code/play-upgrade
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /home/eluria/code/play-upgrade/project
+[Loading] Found non-root projects 
+[Loading] Done in /home/eluria/code/play-upgrade/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/eluria/code/play-upgrade/project, returning: (play-upgrade-build)
+Loading project definition from /home/eluria/code/play-upgrade/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@765c06e3, check cycles: false
+[info] Updating {file:/home/eluria/code/play-upgrade/project/}play-upgrade-build...
+Updating {file:/home/eluria/code/play-upgrade/project/}play-upgrade-build...
+Other repositories:
+Default repositories:
+Using inline dependencies specified in Scala.
+:: resolving dependencies :: default#play-upgrade-build;0.1-SNAPSHOT
+	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+	validate = true
+	refresh = false
+resolving dependencies for configuration 'compile'
+== resolving dependencies for default#play-upgrade-build;0.1-SNAPSHOT [compile]
+== resolving dependencies default#play-upgrade-build;0.1-SNAPSHOT->org.scala-sbt#sbt-core-next;0.1.1 [compile->default(compile)]
+[info] Resolving org.scala-sbt#sbt-core-next;0.1.1 ...
+Resolving org.scala-sbt#sbt-core-next;0.1.1 ...
+sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt-core-next;0.1.1 {compile=[default(compile)]}
+[A[2K[info] Resolving org.scala-sbt#sbt-core-next;0.1.1 ...
+Resolving org.scala-sbt#sbt-core-next;0.1.1 ...
+sbt-chain-delegate: Checking cache for: dependency: org.scala-sbt#sbt-core-next;0.1.1 {compile=[default(compile)]}
+		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-core-next/scala_2.10/sbt_0.13/0.1.1/ivys/ivy.xml
+	typesafe-ivy-releases: found md file for org.scala-sbt#sbt-core-next;0.1.1
+		=> https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-core-next/scala_2.10/sbt_0.13/0.1.1/ivys/ivy.xml (0.1.1)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-core-next/scala_2.10/sbt_0.13/0.1.1/ivys/ivy.xml ...
+	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-core-next/scala_2.10/sbt_0.13/0.1.1/ivys/ivy.xml
+	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-core-next/scala_2.10/sbt_0.13/0.1.1/ivys/ivy.xml.sha1
+sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-core-next/scala_2.10/sbt_0.13/0.1.1/ivys/ivy.xml
+	[SUCCESSFUL ] org.scala-sbt#sbt-core-next;0.1.1!ivy.xml(ivy.original) (1043ms)
+	found org.scala-sbt#sbt-core-next;0.1.1 in typesafe-ivy-releases
+== resolving dependencies org.scala-sbt#sbt-core-next;0.1.1->org.scala-sbt#core-next_2.10;0.1.1 [compile->default(compile)]
+[A[2K[info] Resolving org.scala-sbt#core-next_2.10;0.1.1 ...
+Resolving org.scala-sbt#core-next_2.10;0.1.1 ...
+sbt-chain: Checking cache for: dependency: org.scala-sbt#core-next_2.10;0.1.1 {compile=[default(compile)]}
+sbt-chain: module revision found in cache: org.scala-sbt#core-next_2.10;0.1.1
+	found org.scala-sbt#core-next_2.10;0.1.1 in sbt-chain
+== resolving dependencies org.scala-sbt#core-next_2.10;0.1.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[A[2K[info] Resolving org.scala-lang#scala-library;2.10.4 ...
+Resolving org.scala-lang#scala-library;2.10.4 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
+sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
+	found org.scala-lang#scala-library;2.10.4 in sbt-chain
+	[2.10.4] org.scala-lang#scala-library;2.10.4
+== resolving dependencies org.scala-sbt#core-next_2.10;0.1.1->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+== resolving dependencies org.scala-sbt#core-next_2.10;0.1.1->org.scala-lang#scala-library;2.10.4 [compile->compile]
+== resolving dependencies org.scala-sbt#core-next_2.10;0.1.1->org.scala-lang#scala-library;2.10.4 [compile->master]
+== resolving dependencies org.scala-sbt#core-next_2.10;0.1.1->org.scala-sbt#serialization_2.10;0.1.0 [compile->default(compile)]
+[A[2K[info] Resolving org.scala-sbt#serialization_2.10;0.1.0 ...
+Resolving org.scala-sbt#serialization_2.10;0.1.0 ...
+sbt-chain: Checking cache for: dependency: org.scala-sbt#serialization_2.10;0.1.0 {compile=[default(compile)]}
+[A[2K[info] Resolving org.scala-sbt#serialization_2.10;0.1.0 ...
+Resolving org.scala-sbt#serialization_2.10;0.1.0 ...
+sbt-chain-delegate: Checking cache for: dependency: org.scala-sbt#serialization_2.10;0.1.0 {compile=[default(compile)]}
+		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/serialization_2.10/0.1.0/ivys/ivy.xml
+	typesafe-ivy-releases: found md file for org.scala-sbt#serialization_2.10;0.1.0
+		=> https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/serialization_2.10/0.1.0/ivys/ivy.xml (0.1.0)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/serialization_2.10/0.1.0/ivys/ivy.xml ...
+	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/serialization_2.10/0.1.0/ivys/ivy.xml
+	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/serialization_2.10/0.1.0/ivys/ivy.xml.sha1
